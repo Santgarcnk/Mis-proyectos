@@ -1,0 +1,135 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Lobster&display=swap');
+
+body{
+    margin: -15%;
+    margin-top: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: rgb(52, 52, 52);
+    flex-wrap: wrap;
+}
+
+
+.formulario{
+    transform: translate(-20%, -1%);
+    width: 500px;
+    background: rgb(105, 55, 149);
+    border-radius: 10px;
+    box-shadow: 10px 8px 6px 4px rgb(0, 0, 0);
+    margin-left: 55%;
+    position: absolute;
+
+}
+
+
+.formulario h1{
+    text-align: center;
+    padding: 0 0 20px 0;
+    border-bottom: 1px solid silver;
+    font-family: 'Lobster', cursive;
+    color: aliceblue;
+    text-decoration: underline aliceblue;
+    
+}
+
+.formulario form{
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+.formulario .name{
+    position: relative;
+    border-bottom: 2px solid #adadad;
+    margin: 30px 0;
+}
+
+.formulario .tipo{
+    position: relative;
+    border-bottom: 2px solid #adadad;
+    margin: 30px 0;
+    
+}
+
+.formulario .fech{
+    position: relative;
+    border-bottom: 2px solid #adadad;
+    margin: 30px 0;
+}
+
+.name input{
+    width: 95%;
+    height: 40px;
+    font-size: 16px;
+    border-radius: 10px;
+    background-color: rgba(134, 255, 78, 0.265);
+    color: aliceblue;
+}
+
+.name label{
+    top: 50%;
+    left: 5px;
+    color: #ffffff;
+    transform: translateY(50%);
+    font-size: 16px;
+    pointer-events: none;
+
+}
+
+.fech input{
+    width: 95%;
+    height: 40px;
+    font-size: 16px;
+    border-radius: 10px;
+    background-color: rgba(78, 205, 255, 0.265);
+    cursor: pointer;
+}
+
+.fech label{
+    top: 50%;
+    left: 5px;
+    color: #fff7f7;
+    transform: translateY(50%);
+    font-size: 16px;
+    pointer-events: none;
+}
+
+.tipo select{
+    width: 95%;
+    height: 40px;
+    font-size: 16px;
+    border-radius: 10px;
+    background-color: rgba(78, 205, 255, 0.265);
+    cursor: pointer;
+}
+
+.tipo label{
+    top: 50%;
+    left: 5px;
+    color: #fff5f5;
+    transform: translateY(50%);
+    font-size: 16px;
+    pointer-events: none;
+}
+
+
+.boton{
+    width: 95%;
+    height: 40px;
+    font-size: 16px;
+    border-radius: 15px;
+    background-color: rgb(175, 130, 214);;
+    cursor: pointer;
+    font-family: 'Lobster', cursive;
+}
+
+.boton:hover{
+    background-color: rgb(238, 218, 91);
+}
+
+.gato{
+    border-left: 20%;
+    flex: content;
+}

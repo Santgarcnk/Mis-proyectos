@@ -1,0 +1,13 @@
+*{
+    background: rgb(29, 209, 233);
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+input{
+    display: block;
+    margin: auto;
+    background-color: lightgreen;
+    margin-bottom: 15px;
+}
